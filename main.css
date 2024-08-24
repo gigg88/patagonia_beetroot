@@ -164,3 +164,9 @@ a {
     display: none;
   }
 }
+
+@media screen and (max-width: 568px) {
+  .menu_open .nav_list {
+    display: flex;
+  }
+}

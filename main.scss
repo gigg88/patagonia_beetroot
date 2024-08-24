@@ -177,23 +177,19 @@ a{
     }
 }
 
+.menu_open{
+    @media screen and (max-width: 568px) {
+        .nav_list{
+            display: flex;
+        }
+        
+    }
+}
+
 
 // mobile < 568
 // tablet > 568 && < 1200
 // desktop > 1200
 
 // mobile < 568
-@media screen and (max-width: 568px) {
-    body {
-        
-    }
 
-}
-
-// tablet > 568 && < 1200
-@media screen and (min-width: 1200px) {
-    body {
-        
-    }
-
-}
