@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+:root {
+    --main_cl_txt: #242635;
+ }
+
+body {
+    font-family: "Source Sans 3", sans-serif;
+    color: var(--main_cl_txt);
+}
+
+.hero_title {
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    line-height: 39px;
+    margin-bottom: 27px;
+
+    //tablet
+    @media  screen and (min-width: 568px) {
+        font-size: 72px;
+        line-height: 82.8px;
+        margin-bottom: 22px;
+    }
+    
+    //Desktop
+    @media  screen and (min-width: 1200px) {
+        font-size: 90px;
+        line-height: 102px;
+        margin-bottom: 30px;
+    }
+}
+
+.hero_text {
+    text-align: center;
+    width: 80%;
+    
+    margin: 0 auto 47px; 
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 57px;
+
+    //tablet
+    @media  screen and (min-width: 568px) {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 45px;
+        max-width: 574px;
+    }
+    
+    //Desktop
+    @media  screen and (min-width: 1200px) {
+        margin-bottom: 47px;
+        max-width: 574px;
+    }
+}
+
+.hero_pict {
+ width: 100%;
+ display: block;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    //tablet
+    @media  screen and (min-width: 568px) {
+       width: 80%;   
+    }
+    
+    //Desktop
+    @media  screen and (min-width: 1200px) {
+        max-width: 864px;
+        width: 100%;
+    }
+
+}
+
+.header{
+    padding-top: 70px;
+    margin-bottom:145px;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 28px;
+
+    a{
+        text-transform: capitalize;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+}
+
+
+// mobile < 568
+// tablet > 568 && < 1200
+// desktop > 1200
+
+// mobile < 568
+@media screen and (max-width: 568px) {
+    body {
+        
+    }
+
+}
+
+// tablet > 568 && < 1200
+@media screen and (min-width: 1200px) {
+    body {
+        
+    }
+
+}
