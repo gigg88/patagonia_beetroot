@@ -113,6 +113,37 @@ a{
 
 }
 
+.hamburger{
+    position: fixed;
+    display: block;
+    padding: 30px;
+    top: 30px;
+    right: 30px;
+
+    span {
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: #000;
+        border-radius: 50%;
+    }
+
+    &::after, &::before {
+        content: '';
+        display: inline-block;
+        width: 3px;
+        height: 3px;
+        background-color: #000;
+        border-radius: 50%;
+
+    }
+
+    @media  screen and (min-width: 568px) {
+        display: none;
+        
+    }
+}
+
 
 // mobile < 568
 // tablet > 568 && < 1200
