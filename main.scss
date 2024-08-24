@@ -120,6 +120,7 @@ a{
     }
 
     @media screen and (max-width: 568px) {
+        display: none;
         position: fixed;
         left: 0;
         top: 0;
@@ -147,6 +148,10 @@ a{
     padding: 30px;
     top: 30px;
     right: 30px;
+
+    background-color: #fff;
+    outline: none;
+    border: none;
 
     span {
         display: inline-block;

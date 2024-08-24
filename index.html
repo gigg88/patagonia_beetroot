@@ -25,9 +25,9 @@
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Contacts</a></li>
                     </ul>
-                    <div class="hamburger">
+                    <button class="hamburger">
                         <span></span>
-                    </div>
+                    </button>
                 </div>
             </nav>
         </header>
@@ -49,5 +49,10 @@
         </main>
     </div>
     
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', () => {
+            document.querySelector('body').classList.toggle('menu_open');
+        })
+    </script>
 </body>
 </html>
