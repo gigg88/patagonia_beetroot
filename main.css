@@ -99,6 +99,7 @@ a {
   align-items: center;
   justify-content: flex-end;
   column-gap: 28px;
+  transition: all 0.3s ease;
 }
 .nav_list a {
   text-transform: capitalize;
@@ -115,6 +116,7 @@ a {
 }
 @media screen and (max-width: 568px) {
   .nav_list {
+    transform: translateX(100%);
     display: none;
     position: fixed;
     left: 0;
@@ -167,6 +169,6 @@ a {
 
 @media screen and (max-width: 568px) {
   .menu_open .nav_list {
-    display: flex;
+    transform: none;
   }
 }
